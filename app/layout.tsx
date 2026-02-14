@@ -13,12 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Tomasz Zając — Full Stack Developer",
-    template: "%s | Tomasz Zając",
-  },
-  description:
-    "Portfolio Tomasza Zająca — Full Stack Developer. Strona w budowie. Zapraszam do kontaktu!",
+  title: "Tomasz Zając",
+  description: "Tomasz Zając - Full Stack Developer",
   keywords: [
     "Tomasz Zając",
     "Full Stack Developer",
@@ -38,18 +34,12 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Tomasz Zając — Full Stack Developer",
-    description: "Portfolio Tomasza Zająca — strona w budowie.",
-    url: "https://tomaszzajac.pl", // Zmień na swój docelowy adres
-    siteName: "Tomasz Zając Portfolio",
+    title: "Tomasz Zając",
+    description: "Tomasz Zając - Full Stack Developer",
+    url: "https://tomaszzajac.dev",
+    siteName: "Tomasz Zając",
     locale: "pl_PL",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Tomasz Zając — Full Stack Developer",
-    description: "Portfolio Tomasza Zająca — strona w budowie.",
-    creator: "@tomaszzajac", // Opcjonalnie zmień na swój handle
   },
   robots: {
     index: true,
